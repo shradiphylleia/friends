@@ -60,7 +60,9 @@ app.post("/signup", (req, res) => {
     })
 })
 
-
+app.get('/calendar',(req,res)=>{
+    res.render('calendar')
+})
 
 
 app.get('/logout',(req,res)=>{
