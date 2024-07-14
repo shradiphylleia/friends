@@ -1,0 +1,26 @@
+html{
+        background-color: rgb(152, 200, 242);
+}
+
+.loginBox{
+    display: flex;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.login{
+    background-color: rgb(207, 224, 228);
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.login input{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.loginGraphic img{
+    width: 500px;
+    height: 300px;
+}
