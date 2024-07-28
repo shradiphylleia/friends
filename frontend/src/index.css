@@ -1,0 +1,70 @@
+html{
+  background-color: rgb(219, 226, 207);
+}
+
+.LeftNav{
+  display: flex;
+}
+.Navbar{
+  display:flex;
+  margin-top: 20px;
+}
+.NavLink a{
+  text-decoration: none;
+  font-size: 18px;
+  color:black;
+  margin-left: 40px;
+  font-family: "Playwrite PE";
+  font-weight: 400;
+}
+
+.HomeLink a{
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+  margin-left: 360px;
+  font-family: "Playwrite PE";
+  font-weight: 400;
+}
+
+.Login,.OfferButton{
+width: 80px;
+height: 40px;
+border:2px solid rgb(0, 69, 101);
+border-radius: 20px;
+margin-left: 450px;
+}
+
+.Login:hover, .OfferButton:hover{
+  background-color: rgb(78, 114, 1);
+  border:2px solid rgb(78, 114, 1);
+  color: white;
+  font-family: "Playwrite PE";
+
+}
+
+.HeaderLanding{
+  color: rgb(58, 101, 1);
+  margin-left: 460px;
+  margin-top:280px;
+  font-size: 52px;
+}
+
+.Offering{
+  display: flex;
+  margin-left: 300px;
+}
+
+.OfferButton{
+  margin-left: 30px;
+  width: 100px;
+}
+
+.Services,.Products,.About{
+  background-color: rgb(50, 59, 33);
+  width: 240px;
+  height: 200px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
