@@ -52,19 +52,81 @@ margin-left: 450px;
 
 .Offering{
   display: flex;
-  margin-left: 300px;
+  margin-top: 50px;
+  margin-left: 180px;
 }
 
 .OfferButton{
-  margin-left: 30px;
+  margin-left: 80px;
   width: 100px;
 }
 
-.Services,.Products,.About{
-  background-color: rgb(50, 59, 33);
-  width: 240px;
-  height: 200px;
+.Services, .Products, .About {
+  width: 300px;
+  height: 250px;
   margin-right: 50px;
   padding: 20px;
   border-radius: 20px;
+  border: 1px solid black;
+}
+
+.Services{
+  background-image: url('/src/assets/petCare.png');
+}
+
+.Products{
+  background-image: url('/src/assets/paw.png');
+}
+
+.About{
+  background-image: url('/src/assets/care.png');
+}
+
+
+.OfferDetails{
+  display: flex;
+  margin-left: 30ch;
+}
+
+.OfferDetails .Services, .OfferDetails .Products, .OfferDetails .About{
+  margin-top: 40vh;
+  border:0px none black;
+  background-color: rgb(172, 187, 142);
+}
+
+.OfferDetails .ServiceText{
+  margin-top:60vh;
+  font-size: 42px;
+  color: olivedrab;
+  font-family: "Playwrite PE";
+  width: 600px;
+ 
+}
+
+.OfferDetails .Services:hover, .OfferDetails .Products:hover, .OfferDetails .About:hover
+  {
+  border:2px dashed olivedrab;
+}
+
+.Footer{
+  background-color: rgb(31, 74, 1);
+  padding: 10px;
+}
+
+.Footer a{
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.Footer li{
+  text-decoration: none;
+}
+
+.Footer ul{
+  list-style: none;
+}
+
+.Footer a:hover{
+  text-decoration: underline;
 }

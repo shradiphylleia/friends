@@ -3,8 +3,9 @@ import NavLinks from "./components/NavLinks";
 import Button from "./components/Button";
 import Header from "./components/Header";
 import Box from "./components/Box";
-import Auth from "./auth_service/Auth";
+import TextExplanation from "./components/TextExplanation";
 import { useAuth0 } from "@auth0/auth0-react";
+import Footer from "./components/Footer";
 
 function App() {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
@@ -43,6 +44,21 @@ function App() {
         <Box className="Services" ButtonClassName='OfferButton' onButtonClick={handleButtonClick} />
         <Box className="Products" ButtonClassName='OfferButton' onButtonClick={handleButtonClick} />
         <Box className="About" ButtonClassName='OfferButton' onButtonClick={handleButtonClick} />
+      </div>
+      <div className="OfferDetails">
+      <Box className="Services" ButtonClassName='OfferButton' onButtonClick={handleButtonClick} />
+      <TextExplanation className="ServiceText"  text="Ability to book consultations,schedule vaccination reminders and book pet care provides" /> 
+      </div>
+      <div className="OfferDetails">
+      <Box className="Products" ButtonClassName='OfferButton' onButtonClick={handleButtonClick} />
+      <TextExplanation className="ServiceText"  text="Ability to book consultations,schedule vaccination reminders and book pet care provides" /> 
+      </div>
+      <div className="OfferDetails">
+      <Box className="About" ButtonClassName='OfferButton' onButtonClick={handleButtonClick} />
+      <TextExplanation className="ServiceText"  text="Ability to book consultations,schedule vaccination reminders and book pet care provides" /> 
+      </div>
+      <div className="Footer">
+        <Footer/>
       </div>
     </>
   );
