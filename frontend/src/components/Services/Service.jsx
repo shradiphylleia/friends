@@ -3,6 +3,8 @@ import NavLinks from "../NavLinks";
 import Footer from "../Footer"
 import Box from "../Box"
 import TextExplanation from "../TextExplanation"
+import Calendar from "./Calendar"
+import Reminder from "./Reminder";
 
 import './service.css'
 
@@ -22,6 +24,14 @@ function Product() {
       <div className="OfferDetails">
       <Box className="Services" ButtonClassName='OfferButton' onButtonClick={console.log("hi")} />
       <TextExplanation className="ServiceText"  text="Ability to book consultations,schedule vaccination reminders and book pet care provides" /> 
+      </div>
+      <div className="CalendarBox">
+      <TextExplanation className="CalendarText" text="Book Hassle free with ease.Vet appointments,vaccinations & more"/>
+      <Calendar className="Calendarrep"/>
+      {/* when the rep square is clicked then pet cat cow dog shows */}
+      </div>
+      <div className="Reminder">
+        <Reminder className='Reminderbox' ButtonClassName="ReminderLogin" name="Get Started" onButtonClick={console.log("loginButton")}/>
       </div>
       <div className="Footer">
         <Footer/>
