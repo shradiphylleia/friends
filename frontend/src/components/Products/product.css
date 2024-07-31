@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(219, 226, 207);
+  }
+  
+  .LeftNav{
+    display: flex;
+  }
+  .Navbar{
+    display:flex;
+    margin-top: 20px;
+  }
+  .NavLink a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    margin-left: 40px;
+    font-family: "Playwrite PE";
+    font-weight: 400;
+  }
+  
+  .HomeLink a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-left: 360px;
+    font-family: "Playwrite PE";
+    font-weight: 400;
+}
+
+.Footer{
+    background-color: rgb(31, 74, 1);
+    padding: 10px;
+    margin-top: 100vh;
+  }
+  
+  .Footer a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  
+  .Footer li{
+    text-decoration: none;
+  }
+  
+  .Footer ul{
+    list-style: none;
+  }
+  
+  .Footer a:hover{
+    text-decoration: underline;
+  }
