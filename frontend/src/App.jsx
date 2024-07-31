@@ -7,7 +7,7 @@ import TextExplanation from "./components/TextExplanation";
 import { useAuth0 } from "@auth0/auth0-react";
 import Footer from "./components/Footer";
 
-function App() {
+function App() {//work required here
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
 
   const handleButtonClick = () => {
