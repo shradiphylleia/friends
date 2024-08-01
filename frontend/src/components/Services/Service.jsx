@@ -5,8 +5,12 @@ import Box from "../Box"
 import TextExplanation from "../TextExplanation"
 import Calendar from "./Calendar"
 import Reminder from "./Reminder";
+import Button from "../Button";
+
 
 import './service.css'
+import Profile from "./Profile";
+
 
 function Product() {
   return (
@@ -33,6 +37,12 @@ function Product() {
       <div className="Reminder">
         <Reminder className='Reminderbox' ButtonClassName="ReminderLogin" name="Get Started" onButtonClick={console.log("loginButton")}/>
       </div>
+      <div className="Explore">
+      <Profile className="doctor"  username="Dr.qw" occupation="Vetenerian" location="India"/>
+      <Profile className="provider"  username="Rue" occupation="Caretaker" location="India"/>
+      <Profile className="doctor"  username="Dr.qw" occupation="Vetenerian" location="India"/>
+      </div>
+      <Button className="ExploreLogin" onCilck={()=>redirect='/explore'} name="Explore"/>
       <div className="Footer">
         <Footer/>
       </div>

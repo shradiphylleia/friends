@@ -6,6 +6,8 @@ import About from './components/About/About.jsx';
 import ErrorPage from './ErrorPage.jsx';
 import Service from './components/Services/Service.jsx'
 import Product from './components/Products/Product.jsx'
+import ExplorePage from './components/Explore/ExplorePage.jsx';
+
 
 import './index.css'
 
@@ -13,6 +15,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Sidebar from './components/Explore/Sidebar.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +34,10 @@ const router = createBrowserRouter([
   {
     path:"/product",
     element:<Product/>
+  },
+  {
+    path:"/explore",
+    element:<ExplorePage/>
   }
 ]);
 

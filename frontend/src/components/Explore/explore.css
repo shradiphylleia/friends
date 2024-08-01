@@ -1,0 +1,41 @@
+.ExplorePage {
+    margin-left: 22vw; 
+    margin-top: 2vh;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+.Navbar {
+    margin-left: 22vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.Row {
+    display: flex;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.UserProfile {
+    background-color: rgb(0, 44, 116);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.UserProfile:hover {
+    background-color: rgb(21, 53, 112);
+}
+
+.SearchBar input {
+    width: 140px;
+    height: 48px;
+    background-color: #f4f5fb;
+    padding: 0 20px;
+    border-radius: 25px;
+    border: 1px solid #1a4100;
+}

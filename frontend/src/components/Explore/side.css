@@ -1,0 +1,35 @@
+.SideComponent {
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Playwrite PE';
+}
+
+.Option label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.Logout {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(2, 49, 125);
+}
+
+.Logout:hover {
+    text-decoration: underline;
+}
