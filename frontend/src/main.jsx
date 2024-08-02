@@ -7,6 +7,7 @@ import ErrorPage from './ErrorPage.jsx';
 import Service from './components/Services/Service.jsx'
 import Product from './components/Products/Product.jsx'
 import ExplorePage from './components/Explore/ExplorePage.jsx';
+import New from './New/New.jsx';
 
 
 import './index.css'
@@ -38,6 +39,9 @@ const router = createBrowserRouter([
   {
     path:"/explore",
     element:<ExplorePage/>
+  },{
+    path:"/try",
+    element:<New/>
   }
 ]);
 

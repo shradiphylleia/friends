@@ -8,7 +8,7 @@ import SearchBar from '../SearchBar';
 function Explore() {
   return (
     <>
-        <div className="Navbar">
+        <div className="NavbarExplore">
         <div className="LeftNav">
           <NavLinks className="NavLink" name="About Us" redirect="/about" />
           <NavLinks className="NavLink" name="Services" redirect="/services" />

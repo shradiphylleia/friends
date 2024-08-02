@@ -5,8 +5,8 @@
     transition: margin-left 0.3s;
 }
 
-.Navbar {
-    margin-left: 22vw;
+.NavbarExplore {
+    margin-left: 18vw;
     display: flex;
     justify-content: space-between;
     align-items: center;

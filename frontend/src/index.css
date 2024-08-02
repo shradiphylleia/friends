@@ -8,6 +8,7 @@ html{
 .Navbar{
   display:flex;
   margin-top: 20px;
+  margin-left: 4vw;
 }
 .NavLink a{
   text-decoration: none;
