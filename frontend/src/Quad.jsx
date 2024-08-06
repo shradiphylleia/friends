@@ -11,4 +11,4 @@ function Quad({className,heading,brief}) {
   )
 }
 
-export default Quad
+export default Quad       

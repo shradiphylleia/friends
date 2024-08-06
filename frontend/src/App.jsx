@@ -6,6 +6,7 @@ import Box from "./components/Box";
 import TextExplanation from "./components/TextExplanation";
 import { useAuth0 } from "@auth0/auth0-react";
 import Footer from "./components/Footer";
+import LandingHero from './LandingHero'
 
 function App() {//work required here
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
@@ -37,7 +38,12 @@ function App() {//work required here
           />
         </div>
       </div>
-      <div className="Landing">
+     {/* here is the landing hero section */}
+    <div className="LandingHero">
+      <LandingHero/>
+    </div>
+
+    <div className="Landing">
         <Header className='HeaderLanding' text='Pet care services & products'/>
       </div>
       <div className="Offering">

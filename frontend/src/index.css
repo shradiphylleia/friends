@@ -45,10 +45,11 @@ margin-left: 450px;
 }
 
 .HeaderLanding{
-  color: rgb(58, 101, 1);
-  margin-left: 460px;
-  margin-top:280px;
-  font-size: 52px;
+  color: rgb(14, 58, 26);
+  font-family: "Playwrite PE";
+  margin-left: 290px;
+  margin-top:30vh;
+  font-size: 60px;
 }
 
 .Offering{
@@ -68,21 +69,25 @@ margin-left: 450px;
   margin-right: 50px;
   padding: 20px;
   border-radius: 20px;
-  border: 1px solid black;
 }
 
 .Services{
   background-image: url('/src/assets/petCare.png');
+  background-color:rgba(249, 197, 76, 0.986);
+
 }
 
 .Products{
   background-image: url('/src/assets/paw.png');
+  background-color:rgba(241, 244, 246, 0.986);
+  border:1px dashed rgb(67, 136, 221);
 }
 
 .About{
   background-image: url('/src/assets/care.png');
-}
+  background-color:rgba(249, 197, 76, 0.986);
 
+}
 
 .OfferDetails{
   display: flex;
@@ -92,13 +97,13 @@ margin-left: 450px;
 .OfferDetails .Services, .OfferDetails .Products, .OfferDetails .About{
   margin-top: 40vh;
   border:0px none black;
-  background-color: rgb(172, 187, 142);
 }
+
 
 .OfferDetails .ServiceText{
   margin-top:60vh;
   font-size: 42px;
-  color: olivedrab;
+  color: rgb(14, 58, 26);
   font-family: "Playwrite PE";
   width: 600px;
  
@@ -132,3 +137,64 @@ margin-left: 450px;
   text-decoration: underline;
 }
 
+.Hero{
+  margin-top: 160px;
+  display:flex;
+  margin-left: 80px;
+}
+
+.Hero1,.Hero2{
+  margin-right:50px;
+}
+
+.Quad1{
+  padding: 10px;
+  background-image:url("./assets/catdog.png");
+  width:440px;
+  height:500px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: rgb(14, 168, 130);
+  background-size:340px 300px;
+  background-position:right bottom;
+}
+
+
+.Quad2,.Quad3{
+  padding: 10px;
+  border-radius: 15px;
+  height:220px;
+  width: 450px;
+}
+
+.Quad2{
+  background-color:rgba(249, 197, 76, 0.986);
+  background-image:url("./assets/goat.png");
+  background-size:200px 140px;
+  background-repeat: no-repeat;
+  margin-bottom: 33px;
+  background-position:right bottom;
+}
+
+.Quad3{
+  background-color:rgba(255, 126, 46, 0.986);
+  background-image:url("./assets/cow.png");
+  background-size:200px 180px;
+  background-repeat: no-repeat;
+  margin-bottom: 33px;
+  background-position:right bottom;
+}
+
+.Quad4{
+  margin-top:110px;
+  padding: 10px;
+  border-radius: 15px;
+  height:380px;
+  width: 300px;
+  background-color:rgba(171, 80, 245, 0.986);
+  background-image:url("./assets/horse.png");
+  background-size:210px 220px;
+  background-repeat: no-repeat;
+  background-position:left bottom;
+}
