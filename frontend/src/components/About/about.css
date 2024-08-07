@@ -50,3 +50,34 @@ html{
   .Footer a:hover{
     text-decoration: underline;
   }
+
+  .Explain{
+    margin-top: 80vh;
+    margin-left: 10vh;
+  }
+
+  .explainQuad{
+    width: 660px;
+    height: 420px;
+    color: rgb(27, 61, 11);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:25px;
+    align-items: center;
+    background-color: rgb(221, 211, 158);
+    border-radius: 18px;
+  }
+
+  .explainQuad{
+    margin-left: 40vh;
+    margin-top: -8.7vh;
+  }
+
+  .explainQuad h1{
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+  }
+
+  .Explain .Dog{
+    margin-left: 40vh;
+    width: 300px;
+  }

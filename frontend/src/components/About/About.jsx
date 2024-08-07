@@ -1,11 +1,11 @@
 import React from "react";
 import NavLinks from "../NavLinks";
-import Footer from "../Footer"
-import Box from "../Box"
-import TextExplanation from "../TextExplanation"
+import Footer from "../Footer";
+import Box from "../Box";
+import TextExplanation from "../TextExplanation";
 import Quad from "../../Quad";
 
-import './about.css'
+import "./about.css";
 
 function About() {
   return (
@@ -21,16 +21,28 @@ function About() {
         </div>
       </div>
       <div className="OfferDetails">
-      <Box className="Services" ButtonClassName='OfferButton' onButtonClick={console.log("hi")} />
-      <TextExplanation className="ServiceText"  text="Ability to book consultations,schedule vaccination reminders and book pet care provides" /> 
+        <Box
+          className="Services"
+          ButtonClassName="OfferButton"
+          onButtonClick={console.log("hi")}
+        />
+        <TextExplanation
+          className="ServiceText"
+          text="Ability to book consultations,schedule vaccination reminders and book pet care provides"
+        />
       </div>
       <div className="Explain">
-        <Quad className="explainQaud" heading="friends" brief="**Best-in-Class Care for Your Pet Friends**
-
-At friends, we provide best-in-class care for your beloved pet friends. Our dedicated team of professionals ensures top-notch services tailored to meet the unique needs of each pet. With a focus on compassionate care and cutting-edge treatments, we strive to make every visit a positive experience for both pets and their owners. Trust us to keep your furry friends happy, healthy, and thriving. Be assured, your pets are in the best hands with us."/>
+      <img className="Dog" src="./src/assets/dog.png" alt="dog" />
+        <Quad
+          className="explainQuad"
+          heading="friends"
+          brief="At friends, we provide best-in-class care for your beloved pet friends. Our dedicated team of professionals ensures top-notch services tailored to meet the unique needs of each pet. With a focus on compassionate care and cutting-edge treatments, we strive to make every visit a positive experience for both pets and their owners. Trust us to keep your furry friends happy, healthy, and thriving. Be assured, your pets are in the best hands with us."
+        />
       </div>
+      {/* testimonials part using quad heading name breif comment ismae ek div fir usme ek aur div fir nichae quad */}
+      {/* fir explore idhar */}
       <div className="Footer">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

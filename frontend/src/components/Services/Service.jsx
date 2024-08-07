@@ -11,6 +11,17 @@ import Button from "../Button";
 import './service.css'
 import Profile from "./Profile";
 
+// calendar should be a game where random animal images pop up.
+// vacation reminderrr kae quad mae ek animal daldo
+// providers kae liye ek slidehsow wala slider animation
+// use of animals and bright colors
+
+
+
+
+
+
+
 
 function Product() {
   return (

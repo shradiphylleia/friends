@@ -23,6 +23,8 @@ function Product() {
       <Box className="Products" ButtonClassName='OfferButton' onButtonClick={console.log("hi")} />
       <TextExplanation className="ServiceText"  text="Ability to book consultations,schedule vaccination reminders and book pet care provides" /> 
       </div>
+      {/* for end user
+      serivce providers quads */}
       <div className="Footer">
         <Footer/>
       </div>
