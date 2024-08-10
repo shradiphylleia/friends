@@ -50,3 +50,76 @@ html{
   .Footer a:hover{
     text-decoration: underline;
   }
+
+  .ProductCards{
+    display: flex;
+    margin-left: 15vh;
+    margin-top: 40vh;
+  }
+
+  .Doctorcard, .CareProvidercard, .Usercard{
+    color:black;
+    width: 350px;
+    height:340px;
+    margin-left:5vh;
+    border-radius: 18px;
+    padding: 10px;
+  }
+
+  .Doctorcard{
+    background-color: orangered;
+  }
+
+  .CareProvidercard{
+    background-color:rgb(171, 111, 143);
+  }
+
+  .Usercard{
+    background-color: rgb(14, 168, 130);
+  }
+
+  .Doctorcard a , .CareProvidercard a, .Usercard a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .Doctorcard a:hover ,.DoctorPrice a:hover, .CareProvidercard a:hover, .Usercard a:hover{
+    text-decoration: underline;
+  }
+
+  .CareProvidercard:hover{
+    background-color:rgb(127, 111, 171);
+  }
+
+  .Doctorcard:hover{
+    background-color: rgb(209, 159, 33);
+  }
+
+  .Usercard:hover{
+    background-color: rgb(14, 119, 168);
+  }
+
+  .ProductPricing{
+    margin-left: 5vh;
+    margin-top: 60vh;
+  }
+
+  .DoctorPrice{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(234, 186, 90);
+    border-radius: 18px;
+    padding:20px;
+    background-image: url("./src/assets/goat.png");
+    background-repeat: no-repeat;
+    background-position: 30vh 20vh;
+  }
+
+  .DoctorPrice a{
+    text-decoration: none;
+    color:brown;
+    font-size: 20px;
+  }
+
+
