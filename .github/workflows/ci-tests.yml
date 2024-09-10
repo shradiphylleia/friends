@@ -1,1 +1,30 @@
+name: CI Tests
+
+# This section defines when the workflow should run
+on:
+  pull_request:
+    branches:
+      - main  
+      - dev   
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest 
+
+    steps:
+    - name: Checkout code  
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js (if using Node.js, adjust for your tech stack)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install  
+
+    - name: Run tests
+      run: npm test 
+
 
